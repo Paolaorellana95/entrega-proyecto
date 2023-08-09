@@ -1,0 +1,38 @@
+@media screen and (max-width:972px) {
+    .hero h2 {
+        font-size: 33px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .grid-galeria{
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: 300px;
+    } 
+}
+
+@media screen and (max-width:570px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:540px) {
+    header {
+        position: static;
+    }
+}
+
+@media screen and (max-width:450px) {
+    footer {
+        font-size: 10px;
+    }
+    .grid-galeria{
+        grid-template-columns: 1fr;
+        grid-auto-rows: 300px;
+    } 
+}

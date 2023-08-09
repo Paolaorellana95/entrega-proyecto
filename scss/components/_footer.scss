@@ -1,0 +1,23 @@
+footer {
+    background-color: #fedc54;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        margin: 15px;
+        padding: 0px;
+    }
+
+    div {
+        a {
+            img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+
+    }
+}

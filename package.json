@@ -1,0 +1,21 @@
+{
+  "name": "preentrega1-orellana",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hola 👋, soy Paola</h1>\r <h3 align=\"center\">Una estudiante apasionada de Argentina</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paolaorellana95/entrega-proyecto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paolaorellana95/entrega-proyecto/issues"
+  },
+  "homepage": "https://github.com/Paolaorellana95/entrega-proyecto#readme"
+}

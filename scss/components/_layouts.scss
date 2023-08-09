@@ -1,0 +1,26 @@
+.hero {
+    margin: 0%;
+    padding: 220px;
+    font-size: 20px;
+    background-image: url(../img/ahorro.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        color: black;
+        font-size: 45px;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 25px;
+        background-color: white;
+    }
+}
