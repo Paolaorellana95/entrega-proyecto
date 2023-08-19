@@ -11,7 +11,7 @@ header {
     align-items: center;
     z-index: 1;
 
-    nav {
+    nav { z-index: 1;
         ul {
             list-style: none;
             display: flex;
