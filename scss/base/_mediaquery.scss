@@ -9,10 +9,18 @@
 }
 
 @media screen and (max-width:900px) {
-    .grid-galeria{
-        grid-template-columns: repeat(2,1fr);
+    .grid-galeria {
+        grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 300px;
-    } 
+    }
+
+    .cambios {
+        height: 3500px;
+    }
+
+    .catalogo {
+        height: 4000px;
+    }
 }
 
 @media screen and (max-width:570px) {
@@ -25,7 +33,8 @@
     header {
         position: static;
     }
-    .hero{
+
+    .hero {
         padding: 0;
     }
 }
@@ -34,8 +43,9 @@
     footer {
         font-size: 10px;
     }
-    .grid-galeria{
+
+    .grid-galeria {
         grid-template-columns: 1fr;
         grid-auto-rows: 300px;
-    } 
+    }
 }
