@@ -127,6 +127,11 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    height: 150px;
+
+    .submita {
+        margin: 10px;
+    }
 }
 
 .search {
@@ -139,16 +144,22 @@ main {
     input {
         font-size: 20px;
         text-align: center;
+        margin: 10px;
     }
 
     a {
         text-decoration: none;
         color: $color-blanco;
         background-color: $color-negro;
-        padding: 10px;
-        margin: 15px;
-        border-radius: 10px;
+        padding: 5px;
+        margin: 8px;
+        border-radius: 8px;
+        transition: 3s;
     }
+}
+
+.search a:hover {
+    transform: scale(1.5);
 }
 
 .catalogo {
@@ -200,8 +211,6 @@ main {
                 padding: 5px;
                 border-radius: 10px;
                 font-size: 20px
-
-
             }
         }
     }
@@ -302,7 +311,7 @@ main {
         -webkit-box-shadow: 10px 10px 40px -3px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 10px 10px 40px -3px rgba(0, 0, 0, 0.75);
         position: relative;
-        transition: 2s;
+        margin: 15px;
 
         img {
             width: 100%;
@@ -322,10 +331,8 @@ main {
         }
     }
 }
-.grid-item:hover{
-    transform: scale(1.5);
-}
-.contacto{
+
+.contacto {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -333,17 +340,19 @@ main {
     background-color: $color-amarillo;
     color: $color-blanco;
     text-align: center;
-    div{
-        h3{
+
+    div {
+        h3 {
             color: $color-negro;
         }
     }
-    form{
+
+    form {
         color: $color-negro;
-    border: 5px $color-blanco;
-    padding: 40px;
-    margin: 25px 25px 0 25px;
-    width: 400px;
-    height: auto;
+        border: 5px $color-blanco;
+        padding: 40px;
+        margin: 25px 25px 0 25px;
+        width: 400px;
+        height: auto;
     }
 }
