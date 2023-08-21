@@ -51,7 +51,8 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  flex-direction: column; }
+  flex-direction: column;
+  transition: 3s; }
   .hero h2 {
     color: black;
     font-size: 45px;

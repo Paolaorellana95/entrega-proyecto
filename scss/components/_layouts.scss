@@ -13,6 +13,7 @@ main {
     background-attachment: fixed;
     @extend %flex;
     flex-direction: column;
+    transition: 3s;
     
 
     h2 {
