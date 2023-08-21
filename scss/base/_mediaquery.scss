@@ -1,3 +1,12 @@
+@media screen and (max-width:1373px){
+    .catalogo{
+        height: 1900px;
+    }
+    .cambios{
+        height: 1900px;
+    }
+}
+
 @media screen and (max-width:972px) {
     .hero h2 {
         font-size: 33px;
@@ -5,6 +14,9 @@
 
     .hero p {
         font-size: 18px;
+    }
+    .catalogo {
+        height: 4000px;
     }
 }
 
@@ -15,11 +27,16 @@
     }
 
     .cambios {
-        height: 3500px;
+        height: 2000px;
     }
 
     .catalogo {
         height: 4000px;
+    }
+}
+@media screen and (max-width:860px){
+    .cambios {
+        height: 3450px;
     }
 }
 
