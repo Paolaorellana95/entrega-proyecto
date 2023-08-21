@@ -12,7 +12,7 @@ body {
   align-items: center; }
 
 header {
-  height: 100px;
+  height: 120px;
   background-color: #149c9a;
   padding-top: 1%;
   padding-left: 1%;
@@ -339,7 +339,8 @@ footer {
 
 @media screen and (max-width: 570px) {
   header {
-    flex-direction: column; } }
+    flex-direction: row;
+    justify-content: space-between; } }
 
 @media screen and (max-width: 540px) {
   header {
