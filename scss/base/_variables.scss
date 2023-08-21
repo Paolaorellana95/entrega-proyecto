@@ -4,3 +4,9 @@ $color-blanco: white;
 $color-celeste: #149c9a;
 $color-anaranjado: #fedc54;
 $color-negro: black;
+
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

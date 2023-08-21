@@ -11,10 +11,9 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    display: flex;
+    @extend %flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
 
     h2 {
         color: $color-negro;
@@ -49,7 +48,7 @@ main {
             margin: 80px;
             background-color: $color-blanco;
             text-align: center;
-            width: 400px;
+            width: 350px;
             height: 300px;
             border: 2px solid $color-negro;
             padding: 0;
@@ -95,13 +94,14 @@ main {
             margin: 50px;
             background-color: $color-blanco;
             text-align: center;
-            width: 400px;
+            width: 350px;
             height: 300px;
             border: 2px solid $color-negro;
 
             img {
-                width: 200px;
-                height: 180px;
+                width: 220px;
+                height: 210px;
+                margin-top: 20px;
             }
 
             h3 {
@@ -122,10 +122,8 @@ main {
 }
 
 .comercio {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @extend %flex;
     flex-wrap: wrap;
     height: 150px;
 
@@ -179,23 +177,24 @@ main {
         color: $color-negro;
         font-size: 28px;
         padding-top: 2%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend %flex;
         flex-wrap: wrap;
         height: 700px;
+        
 
         div {
             margin: 50px;
             background-color: $color-blanco;
             text-align: center;
-            width: 320px;
-            height: 320px;
+            width: 350px;
+            height: 350px;
             border: 2px solid $color-negro;
+            
 
             img {
                 width: 250px;
-                height: 200px;
+                height: 230px;
+                margin-top: 20px;
             }
 
             h3 {
@@ -272,10 +271,8 @@ main {
 
 .nosotros {
     font-size: 28px;
-    display: flex;
+    @extend %flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
     h2 {
         color: $color-blanco;
@@ -328,14 +325,12 @@ main {
 }
 
 .contacto {
-    display: flex;
+    @extend %flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: $color-amarillo;
     color: $color-blanco;
     text-align: center;
-    height: 730px;
+    height: 700px;
 
     div {
         h3 {

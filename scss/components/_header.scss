@@ -11,7 +11,14 @@ header {
     align-items: center;
     z-index: 1;
 
-    nav { z-index: 1;
+    h1 a {
+        text-decoration: none;
+        color: $color-negro;
+    }
+
+    nav {
+        z-index: 1;
+
         ul {
             list-style: none;
             display: flex;
